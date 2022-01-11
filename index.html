@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <!-- header start -->
+
+    <header id="header">
+        <div class="icon">
+            <h1>Zomato</h1>
+
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="./image/facebook.png" alt="facebook" class="slogo" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="./image/insta.png" alt="instagram" class="slogo" />
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="./image/youtube1.png" alt="youtube" class="slogo" />
+            </a>
+
+            <button onclick="changemode()"><i class="fa fa-moon-o" style="font-size:24px"></i></button>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    
+    
+    <div id="search">
+
+        <div id="logo">
+            <span>E!</span>
+        </div>
+        <div class="searchheading">
+            Find the best restaurant,cafes,and bars
+        </div>
+        <div id="dropdown" class="dropdown ">
+            <select id="city" onChange="getHotel()">
+                <option value="">SELECT CITY</option>
+                <!-- <option value="">Delhi</option>
+                <option value="">Mumbai</option>
+                <option value="">Pune</option> -->
+            </select>
+            <select class="restaurantSelect" id="hotels">
+                <option value="">SELECT RESTAURANTS</option>
+            </select>
+        </div>
+    </div>
+
+ <!-- banner start -->
+ <div id="banner">
+    <button onclick="closeDiv()">&times;</button>
+    <div class="bannercontent">
+        <p class="disnum">30%</p>
+        <p class="onlaunch">Discount On Launch</p>
+        <p class="expire">Till Feb 2022</p>
+    </div>
+
+</div>
+<!-- banner end -->
+
+    <div id="quicksearch">
+
+        <span id="quickheading">Quick Search</span>
+        <span id="quickSubHeading">Discover Restaurants By Meal</span>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-4 py-3 py-sm-0 ">
+                    <div class="card box-shadow">
+                        <img src="./image/food-tile.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">BreakFast</h5>
+                            <p class="card-text">Find The Best BreakFast Places Near You</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 py-3 py-sm-0">
+                    <div class="card box-shadow">
+                        <img src="./image/lunch.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Launch</h5>
+                            <p class="card-text">Find The Best Launch Places Near You</p>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 py-3 py-sm-0">
+                    <div class="card box-shadow">
+                        <img src="./image/dinner.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sncaks</h5>
+                            <p class="card-text">Find The Best Snacks Places Near You</p>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row1">
+                <div class="col-sm-4 py-3 py-sm-0">
+                    <div class="card box-shadow">
+                        <img src="./image/sacks.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dinner</h5>
+                            <p class="card-text">Find The Best Dinner Places Near You</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 py-3 py-sm-0">
+                    <div class="card box-shadow">
+                        <img src="./image/drinks.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Drinks</h5>
+                            <p class="card-text">Find The Best Drinks Places Near You</p>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 py-3 py-sm-0">
+                    <div class="card box-shadow">
+                        <img src="./image/nightlife.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">NightLife</h5>
+                            <p class="card-text">Find The Best Clubs Places Near You</p>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        window.onload.test();
+    </script>
+</body>
+
+</html>

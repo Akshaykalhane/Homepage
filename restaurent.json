@@ -1,0 +1,88 @@
+{
+"hotel":[
+    {
+        "_id":"1",
+        "name":"Maratha Veg Hotel",
+        "city_Name":"Pune",
+        "city":"1"
+    },
+    {
+        "_id":"6",
+        "name":"Hotel Raigad",
+        "city_Name":"Pune",
+        "city":"1"
+    },
+    {
+        "_id":"7",
+        "name":"Hotel Rajgad",
+        "city_Name":"Pune",
+        "city":"1"
+    },
+    {
+        "_id":"2",
+        "name":"Thakre dhaba",
+        "city_Name":"Mumbai",
+        "city":"2"
+    },
+    {
+        "_id":"8",
+        "name":"Taj Hotel",
+        "city_Name":"Mumbai",
+        "city":"2"
+    },
+    {
+        "_id":"9",
+        "name":"Mohan Hotel",
+        "city_Name":"Mumbai",
+        "city":"2"
+    },
+    {
+        "_id":"3",
+        "name":"Saloni hotel",
+        "city_Name":"Nagpur",
+        "city":"3"
+    },
+    {
+        "_id":"10",
+        "name":"Hotel Varadi",
+        "city_Name":"Nagpur",
+        "city":"3"
+    },
+    {
+        "_id":"11",
+        "name":"Hotel Nagpuri",
+        "city_Name":"Nagpur",
+        "city":"3"
+    },
+    {
+        "_id":"4",
+        "name":"Shree Ram Hotel",
+        "city_Name":"Delhi",
+        "city":"4"
+    },
+    {
+        "_id":"12",
+        "name":"Deep Hotel",
+        "city_Name":"Delhi",
+        "city":"4"
+    },
+    {
+        "_id":"13",
+        "name":"Darksoil Hotel",
+        "city_Name":"Delhi",
+        "city":"4"
+    },
+    {
+        "_id":"5",
+        "name":"Amba hotel",
+        "city_Name":"Amravati",
+        "city":"5"
+    },
+    {
+        "_id":"6",
+        "name":"Rangoli pearls",
+        "city_Name":"Amravati",
+        "city":"5"
+    }
+]
+}
